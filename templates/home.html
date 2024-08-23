@@ -1,0 +1,22 @@
+<!-- templates/home.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Financial Analysis Home</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="jumbotron mt-4">
+            <h1 class="display-4">Welcome to Financial Analysis</h1>
+            <p class="lead">Upload your financial data and get detailed analysis.</p>
+            <hr class="my-4">
+            <p>You can upload your data file and view the analysis results.</p>
+            <a class="btn btn-primary btn-lg" href="{% url 'upload_file' %}" role="button">Get Started</a>
+        </div>
+    </div>
+</body>
+</html>
